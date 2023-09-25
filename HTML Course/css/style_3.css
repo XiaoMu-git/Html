@@ -1,0 +1,17 @@
+p::before {
+    content: url('../../image/png/icon.png');
+    margin-right: 10px;
+}
+
+p:nth-child(odd) {
+    color: rgb(24, 160, 160);
+}
+
+p:nth-child(even) {
+    color: rgb(57, 112, 230);
+}
+
+h3::before {
+    content: url('../../image/png/title_bg.png');
+    margin-right: 10px;
+}

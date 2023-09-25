@@ -1,0 +1,45 @@
+body {
+    /* background: url(../image/img\ \(12\).png) no-repeat; */
+}
+
+#div_1 {
+    width: 400px;
+    height: 400px;
+    border: 30px solid;
+    border-image-source: url(../image/数字.png);
+    border-image-slice:  22%;
+    border-image-width: 40px;
+    border-image-repeat: repeat;
+}
+
+#div_2 {
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(
+        ellipse at center, 
+        #09a6d6, #07da46);
+    background-image: repeating-linear-gradient(0deg, rgb(255, 255, 255) 0 20px, rgb(0, 0, 0) 20px 40px);
+}
+
+#div_3 {
+    width: 400px;
+    height: 400px;
+    background-image: repeating-radial-gradient(circle at center, black 10%, yellow 20%);
+}
+
+.div_4 {
+    width: 400px;
+    height: 400px;
+    background-image: url(../image/狗.png), url(../image/底端.png), url(../image/红色背景.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 10px dashed;
+    padding: 40px;
+    background-origin: content-box;`    
+}
+
+#img_1 {
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px 2px #999;
+}

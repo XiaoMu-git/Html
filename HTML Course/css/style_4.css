@@ -1,0 +1,37 @@
+h2 {
+    border-style: double;
+    border-width: 5px;
+}
+
+.one {
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+.two {
+    border-style: solid dotted dashed double;
+    border-width: 3px 4px 5px 6px;
+    border-color: red orange yellow green;
+}
+
+.border {
+    border: 2px solid lightblue;
+    padding: 20px;
+}
+
+img {
+    border: 4px solid black;
+    margin: auto;
+    /* display: block; */
+}
+
+body {
+    /* background-image: url("../image/img\ \(7\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-attachment: scroll; */
+    background: url("../image/img\ \(7\).png") no-repeat center 100% scroll;
+}

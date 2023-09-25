@@ -1,0 +1,33 @@
+.title {
+    font-family: SimSun, Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.subhead {
+    text-align: center;
+}
+
+.text {
+    text-indent: 2em
+}
+
+p.text2 {
+    text-indent: 20px
+}
+
+.yellow {
+    background-color: yellow;
+    display: inline-block;
+    padding: 5px;
+    text-indent: 0em
+}
+
+.img {
+    float: left;
+    margin-right: 10px;
+}
+
+.t {
+    text-align: right;
+}
